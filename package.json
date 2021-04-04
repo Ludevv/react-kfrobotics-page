@@ -2,7 +2,7 @@
   "name": "kfrobotics",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Ludevv.github.io/kfroboticsdeploy",
+  "homepage": "https://ludevv.github.io/react-kfrobotics-page/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@testing-library/jest-dom": "^5.11.10",
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
