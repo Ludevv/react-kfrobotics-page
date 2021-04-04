@@ -8,6 +8,7 @@
     flex-basis: 50%;
     text-align: justify;
     padding-right: 60px;
+    font-size: 18px;
   }
 
   .gerrisImgBoxOdd {
@@ -15,6 +16,10 @@
     flex-basis: 35%;
     height: 240px;
     background-color: gold;
+    width: 150px;
+    transform: skew(-14deg);
+    overflow: hidden;
+    border: 5px solid gold;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
       rgba(0, 0, 0, 0.07) 0px 2px 4px,
       rgba(0, 0, 0, 0.07) 0px 4px 8px,
@@ -22,65 +27,53 @@
       rgba(0, 0, 0, 0.07) 0px 16px 32px,
       rgba(0, 0, 0, 0.07) 0px 32px 64px;
 
-    .gerrisTriangleOdd {
-      position: absolute;
-      bottom: 0;
-      left: -89px;
-      width: 0;
-      height: 0;
-      border-bottom: 240px solid gold;
-      border-left: 90px solid transparent;
-
-    }
-
-    .gerrisTriangle2Odd {
-      position: absolute;
-      bottom: 0;
-      right: -89px;
-      width: 0;
-      height: 0;
-      border-top: 240px solid gold;
-      border-right: 90px solid transparent;
-
-    }
-
-
-
     .gerrisOneImgOdd1 {
-      margin: 5px 4px;
-      width: 98%;
-      height: 96%;
-      // padding: 10px;
+      position: absolute;
+      top: 0;
+      left: -30px;
+      transform: skew(14deg);
+      margin: 0 -55px 0 0;
+      width: 120%;
+      height: 100%;
       background-image: url("../images/g1one.jpg");
       background-size: cover;
       background-position: center;
     }
 
     .gerrisOneImgOdd3 {
-      margin: 5px 4px;
-      width: 98%;
-      height: 96%;
-      // padding: 10px;
+      position: absolute;
+      top: 0;
+      left: -30px;
+      transform: skew(14deg);
+      margin: 0 -55px 0 0;
+      width: 120%;
+      height: 100%;
       background-image: url("../images/g1three.jpg");
       background-size: cover;
       background-position: center;
     }
 
     .gerrisTwoImgOdd1 {
-      margin: 5px 4px;
-      width: 98%;
-      height: 96%;
-      // padding: 10px;
+      position: absolute;
+      top: 0;
+      left: -30px;
+      transform: skew(14deg);
+      margin: 0 -55px 0 0;
+      width: 120%;
+      height: 100%;
       background-image: url("../images/g2one.jpg");
       background-size: cover;
       background-position: bottom;
     }
 
     .gerrisTwoImgOdd3 {
-      margin: 5px 4px;
-      width: 98%;
-      height: 96%;
-      // padding: 10px;
+      position: absolute;
+      top: 0;
+      left: -30px;
+      transform: skew(14deg);
+      margin: 0 -55px 0 0;
+      width: 120%;
+      height: 100%;
       background-image: url("../images/g2three.jpg");
       background-size: cover;
       background-position: center;
@@ -88,10 +81,13 @@
 
 
     .gerrisThreeImgOdd1 {
-      margin: 5px 4px;
-      width: 98%;
-      height: 96%;
-      // padding: 10px;
+      position: absolute;
+      top: 0;
+      left: -30px;
+      transform: skew(14deg);
+      margin: 0 -55px 0 0;
+      width: 120%;
+      height: 100%;
       // //////////////////////////////////////////////////////////////////////////////////////
       ///////////////////////////////////////////////////////////////////////////////////////
       // background-image: url("../images/g2one.jpg");
@@ -102,10 +98,13 @@
     }
 
     .gerrisThreeImgOdd3 {
-      margin: 5px 4px;
-      width: 98%;
-      height: 96%;
-      // padding: 10px;
+      position: absolute;
+      top: 0;
+      left: -30px;
+      transform: skew(14deg);
+      margin: 0 -55px 0 0;
+      width: 120%;
+      height: 100%;
       // //////////////////////////////////////////////////////////////////////////////////////
       ///////////////////////////////////////////////////////////////////////////////////////
       // background-image: url("../images/g2one.jpg");
@@ -128,67 +127,60 @@
     flex-basis: 50%;
     text-align: justify;
     padding-left: 60px;
+    font-size: 18px;
   }
 
   .gerrisImgBoxEven {
     position: relative;
     flex-basis: 35%;
-
     height: 240px;
     background-color: gold;
+    width: 150px;
+    transform: skew(14deg);
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
       rgba(0, 0, 0, 0.07) 0px 2px 4px,
       rgba(0, 0, 0, 0.07) 0px 4px 8px,
       rgba(0, 0, 0, 0.07) 0px 8px 16px,
       rgba(0, 0, 0, 0.07) 0px 16px 32px,
       rgba(0, 0, 0, 0.07) 0px 32px 64px;
-
-    .gerrisTriangleEven {
-      position: absolute;
-      bottom: 0;
-      right: -89px;
-      width: 0;
-      height: 0;
-      border-bottom: 240px solid gold;
-      border-right: 90px solid transparent;
-    }
-
-    .gerrisTriangle2Even {
-      position: absolute;
-      bottom: 0;
-      left: -89px;
-      width: 0;
-      height: 0;
-      border-top: 240px solid gold;
-      border-left: 90px solid transparent;
-
-    }
+    overflow: hidden;
+    border: 5px solid gold;
 
     .gerrisOneImgEven {
-      margin: 5px 4px;
-      width: 98%;
-      height: 96%;
-      // padding: 10px;
+
+      position: absolute;
+      top: 0;
+      left: -30px;
+      transform: skew(-14deg);
+      margin: 0 -55px 0 0;
+      width: 120%;
+      height: 100%;
       background-image: url("../images/g1two.jpg");
       background-size: cover;
       background-position: center;
     }
 
     .gerrisTwoImgEven {
-      margin: 5px 4px;
-      width: 98%;
-      height: 96%;
-      // padding: 10px;
+      position: absolute;
+      top: 0;
+      left: -30px;
+      transform: skew(-14deg);
+      margin: 0 -55px 0 0;
+      width: 120%;
+      height: 100%;
       background-image: url("../images/g2two.jpg");
       background-size: cover;
       background-position: center;
     }
 
     .gerrisThreeImgEven {
-      margin: 5px 4px;
-      width: 98%;
-      height: 96%;
-      // padding: 10px;
+      position: absolute;
+      top: 0;
+      left: -30px;
+      transform: skew(-14deg);
+      margin: 0 -55px 0 0;
+      width: 120%;
+      height: 100%;
       // //////////////////////////////////////////////////////////////////////////////////////
       ///////////////////////////////////////////////////////////////////////////////////////
       // background-image: url("../images/g2one.jpg");
@@ -197,11 +189,7 @@
       background-size: cover;
       background-position: center;
     }
-
-
   }
-
-
 }
 
 .gerrisDesign {
@@ -209,6 +197,7 @@
   text-align: center;
   color: rgb(170, 170, 170);
   margin-bottom: 30px;
+  font-size: 18px;
 }
 
 .gerrisMoreSoon {
@@ -221,8 +210,8 @@
 
 .gerrisHelp {
   text-align: center;
-  font-size: 17px;
   margin-bottom: 20px;
   color: red;
   font-weight: 700;
+  font-size: 18px;
 }

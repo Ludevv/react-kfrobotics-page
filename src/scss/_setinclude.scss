@@ -1,6 +1,7 @@
 .bgSetBox {
   margin: 75px 0;
   background-color: rgb(156, 156, 156);
+
 }
 
 .setBox {
@@ -17,10 +18,12 @@
   p {
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 18px;
   }
 
   li {
     padding-bottom: 3px;
+    font-size: 14px;
   }
 
   .setInclude {

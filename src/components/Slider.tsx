@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { useLanguage } from '../store/Store';
+import { NavLink } from 'react-router-dom';
 
 import carusel1 from '../images/carusel1.jpg';
 import carusel2 from'../images/carusel2.jpg';
@@ -21,7 +22,7 @@ const Slider: React.SFC<SliderProps> = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3 className="caruselTitle">GERRIS ASV</h3>
+            <NavLink to="/gerrisasv" className="nav-link"><h3 className="caruselTitle">GERRIS ASV</h3></NavLink>
             <p className="caruselDesc">{lang ? "Uniwersalny bezzałogowy katamaran z funkcją autopilota." : "A universal unmanned catamaran with an autopilot function."}</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -32,7 +33,7 @@ const Slider: React.SFC<SliderProps> = () => {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3 className="caruselTitle">GERRIS ASV SPECIAL</h3>
+            <NavLink to="/gerrisasvspecial" className="nav-link"><h3 className="caruselTitle">GERRIS ASV SPECIAL</h3></NavLink>
             <p  className="caruselDesc">{lang ? "Zintegrowany system do pomiarów batymetrycznych." : "Integrated system for bathymetric measurements."}</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -43,7 +44,7 @@ const Slider: React.SFC<SliderProps> = () => {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h3 className="caruselTitle">GERRIS 1200</h3>
+            <NavLink to="/gerris1200" className="nav-link"><h3 className="caruselTitle">GERRIS 1200</h3></NavLink>
             <p  className="caruselDesc">{lang ? "Nowoczesny bezzałogowy katamaran z funkcją autopilota (w trakcie testów)." : "A modern unmanned catamaran with an autopilot function (under testing)."}</p>
           </Carousel.Caption>
         </Carousel.Item>

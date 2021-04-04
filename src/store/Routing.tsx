@@ -7,11 +7,14 @@ import GerrisAVS from '../pages/GerrisASV';
 import GerrisAVSSpecial from '../pages/GerrisASVSpecial';
 import Gerris1200 from '../pages/Gerris1200';
 import Map from '../pages/Map';
+import ScrollToTop from '../components/ScrollToTop';
 
 export interface RoutingProps {}
  
 const Routing: React.SFC<RoutingProps> = () => {
   return ( 
+    <>
+    <ScrollToTop/>
     <Switch>
       <Route exact path="/" render={()=> <Main/>}/>
       <Route exact path="/aktualnosci" render={()=> <News/>}/>
@@ -21,6 +24,7 @@ const Routing: React.SFC<RoutingProps> = () => {
       <Route exact path="/kontakt" render={()=> <Map/>}/>
       <Redirect to="/"/>
     </Switch>
+    </>
    );
 }
  

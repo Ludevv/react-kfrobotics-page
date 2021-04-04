@@ -17,9 +17,9 @@ const Gerris: React.SFC<GerrisProps> = ({text1, text2, text3, imgSrc1, imgSrc2, 
       <div className="gerrisBoxOdd">
         <p className="gerrisTextOdd">{text1}</p>
         <div className="gerrisImgBoxOdd">
-          <div className="gerrisTriangleOdd"></div>
+          {/* <div className="gerrisTriangleOdd"></div> */}
           <div className={imgSrc1}></div>
-          <div className="gerrisTriangle2Odd"></div>
+          {/* <div className="gerrisTriangle2Odd"></div> */}
         </div>
         </div>
 
@@ -28,9 +28,9 @@ const Gerris: React.SFC<GerrisProps> = ({text1, text2, text3, imgSrc1, imgSrc2, 
 
 
               <div className="gerrisImgBoxEven">
-          <div className="gerrisTriangleEven"></div>
+          {/* <div className="gerrisTriangleEven"></div> */}
           <div className={imgSrc2}></div>
-          <div className="gerrisTriangle2Even"></div>
+          {/* <div className="gerrisTriangle2Even"></div> */}
         </div>
         
         <p className="gerrisTextEven">{text2}</p>
@@ -41,9 +41,9 @@ const Gerris: React.SFC<GerrisProps> = ({text1, text2, text3, imgSrc1, imgSrc2, 
       <div className="gerrisBoxOdd">
         <p className="gerrisTextOdd">{text3}</p>
         <div className="gerrisImgBoxOdd">
-          <div className="gerrisTriangleOdd"></div>
+          {/* <div className="gerrisTriangleOdd"></div> */}
           <div className={imgSrc3}></div>
-          <div className="gerrisTriangle2Odd"></div>
+          {/* <div className="gerrisTriangle2Odd"></div> */}
         </div>
       </div>
       <em className="gerrisDesign">{lang ? "Zaprojektowany i budowany w Polsce przez zespół inżynierów i modelarzy." : "Designed and built in Poland by a team of engineers and modelers."}</em>

@@ -16,7 +16,7 @@ const GerrisASV: React.SFC<GerrisASVProps> = () => {
   return ( 
     <>
     <div className="container">
-      <Title text="Gerris AVS"/>
+      <Title text="Gerris ASV"/>
       <Gerris
 
         text1={ lang ? 
