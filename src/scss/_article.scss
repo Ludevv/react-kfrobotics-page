@@ -1,0 +1,22 @@
+.article {
+  width: 70%;
+  margin: 40px auto;
+
+  h5 {
+    font-size: 27px;
+    color: rgb(170, 170, 170);
+    margin-bottom: 20px;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  span {
+    display: block;
+    text-align: right;
+    font-style: italic;
+    color: rgb(170, 170, 170);
+    font-size: 13px;
+  }
+}

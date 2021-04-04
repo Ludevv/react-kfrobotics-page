@@ -1,0 +1,78 @@
+.contact {
+  position: relative;
+  background-color: gold;
+  padding-bottom: 20px;
+  font-size: 13px;
+
+
+  .triangle-topleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-top: 200px solid black;
+    border-right: 100px solid transparent;
+  }
+
+
+  .container {
+    width: 40%;
+
+    a {
+      margin-bottom: 7px;
+      text-decoration: none;
+      color: black;
+
+      &:hover {
+        color: rgb(73, 73, 73);
+      }
+    }
+
+    p {
+      margin-bottom: 7px;
+    }
+  }
+
+  .dispCol {
+    display: flex;
+    // width: 70%;
+  }
+
+  .person {
+    flex-basis: 50%;
+  }
+
+  .company {
+    flex-basis: 50%;
+  }
+
+  .contactTitle {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .contactName {
+    display: block;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Audiowide', cursive;
+    // text-decoration: underline;
+    font-size: 20px;
+  }
+
+  .person a {
+    display: block;
+  }
+
+  .fas,
+  .fab {
+    display: inline-block;
+    margin-right: 5px;
+  }
+}

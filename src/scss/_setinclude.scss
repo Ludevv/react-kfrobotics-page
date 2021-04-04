@@ -1,0 +1,33 @@
+.bgSetBox {
+  margin: 75px 0;
+  background-color: rgb(156, 156, 156);
+}
+
+.setBox {
+  display: flex;
+  width: 55%;
+  margin: 20px auto;
+
+  padding: 20px;
+  background-color: rgb(156, 156, 156);
+  color: white;
+  font-size: 12px;
+
+
+  p {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  li {
+    padding-bottom: 3px;
+  }
+
+  .setInclude {
+    flex-basis: 50%;
+  }
+
+  .optional {
+    flex-basis: 50%;
+  }
+}

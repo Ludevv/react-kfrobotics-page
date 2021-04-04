@@ -1,0 +1,17 @@
+.titleBox {
+  position: relative;
+  width: 120px;
+  height: 70px;
+  margin: 40px 150px 0;
+  background-color: gold;
+  white-space: nowrap;
+
+  .titleText {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-size: 40px;
+    color: black;
+    font-family: 'Audiowide', cursive;
+  }
+}

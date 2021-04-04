@@ -1,0 +1,80 @@
+.aboutCompany {
+  position: relative;
+  width: 70%;
+  margin: 40px auto 0;
+  text-align: justify;
+
+  h3 {
+    color: rgb(139, 139, 139);
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  .aboutAnimation {
+    position: absolute;
+    bottom: 0;
+    left: -5px;
+    width: 0%;
+    height: 15px;
+    background-color: gold;
+    z-index: -1;
+    animation: underlineAboutCompany 8s forwards;
+
+    @media (max-width: 415px) {
+      animation: aunderline 3s;
+    }
+  }
+}
+
+.carousel {
+  margin: 70px auto;
+  width: 70%;
+  background-color: rgb(236, 236, 236);
+
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
+    rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px,
+    rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px,
+    rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+  li {
+    margin: 0 5px;
+    height: 2px;
+    border-bottom: 4px solid rgba(133, 133, 133, 0.4);
+    cursor: pointer;
+
+    &:hover {
+      border-bottom: 4px solid rgba(82, 82, 82, 0.7);
+    }
+  }
+
+  .carousel-indicators .active {
+    border-bottom: 4px solid gold;
+
+  }
+
+  .carousel-caption {
+    position: static;
+    bottom: 0;
+    color: black;
+  }
+
+  .caruselTitle {
+    font-family: 'Audiowide', cursive;
+  }
+
+
+
+
+
+}
+
+
+
+
+@keyframes underlineAboutCompany {
+  100% {
+    width: 70%;
+  }
+}
