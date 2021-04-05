@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-kfrobotics-page/static/css/main.eb470786.chunk.css",
-    "main.js": "/react-kfrobotics-page/static/js/main.7bb205d5.chunk.js",
-    "main.js.map": "/react-kfrobotics-page/static/js/main.7bb205d5.chunk.js.map",
+    "main.css": "/react-kfrobotics-page/static/css/main.b9dc0472.chunk.css",
+    "main.js": "/react-kfrobotics-page/static/js/main.707120e9.chunk.js",
+    "main.js.map": "/react-kfrobotics-page/static/js/main.707120e9.chunk.js.map",
     "runtime-main.js": "/react-kfrobotics-page/static/js/runtime-main.46c8b18b.js",
     "runtime-main.js.map": "/react-kfrobotics-page/static/js/runtime-main.46c8b18b.js.map",
     "static/js/2.74d31f45.chunk.js": "/react-kfrobotics-page/static/js/2.74d31f45.chunk.js",
     "static/js/2.74d31f45.chunk.js.map": "/react-kfrobotics-page/static/js/2.74d31f45.chunk.js.map",
     "index.html": "/react-kfrobotics-page/index.html",
-    "static/css/main.eb470786.chunk.css.map": "/react-kfrobotics-page/static/css/main.eb470786.chunk.css.map",
+    "static/css/main.b9dc0472.chunk.css.map": "/react-kfrobotics-page/static/css/main.b9dc0472.chunk.css.map",
     "static/js/2.74d31f45.chunk.js.LICENSE.txt": "/react-kfrobotics-page/static/js/2.74d31f45.chunk.js.LICENSE.txt",
     "static/media/carusel1.8c8b09b4.jpg": "/react-kfrobotics-page/static/media/carusel1.8c8b09b4.jpg",
     "static/media/carusel2.7aeb5d88.jpg": "/react-kfrobotics-page/static/media/carusel2.7aeb5d88.jpg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.46c8b18b.js",
     "static/js/2.74d31f45.chunk.js",
-    "static/css/main.eb470786.chunk.css",
-    "static/js/main.7bb205d5.chunk.js"
+    "static/css/main.b9dc0472.chunk.css",
+    "static/js/main.707120e9.chunk.js"
   ]
 }
