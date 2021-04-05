@@ -2,7 +2,7 @@
   position: relative;
   width: 120px;
   height: 70px;
-  margin: 40px 150px 0;
+  margin: 40px 0 0;
   background-color: gold;
   white-space: nowrap;
 
@@ -13,5 +13,29 @@
     font-size: 40px;
     color: black;
     font-family: 'Audiowide', cursive;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .titleBox {
+    margin: 40px 0 0;
+    width: 100px;
+    height: 57px;
+
+    .titleText {
+      font-size: 30px;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .titleBox {
+    margin: 40px 0 0;
+    width: 100px;
+    height: 57px;
+
+    .titleText {
+      font-size: 30px;
+    }
   }
 }

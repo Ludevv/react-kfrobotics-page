@@ -18,7 +18,7 @@
 
 
   .container {
-    width: 40%;
+    width: 42%;
 
     a {
       margin-bottom: 7px;
@@ -59,7 +59,7 @@
   .contactName {
     display: block;
     margin-bottom: 25px;
-    margin-left: 30px;
+    // margin-left: 30px;
     margin-top: 10px;
     font-family: 'Audiowide', cursive;
     // text-decoration: underline;
@@ -75,4 +75,56 @@
     display: inline-block;
     margin-right: 5px;
   }
+}
+
+
+
+@include media-breakpoint-down(xl) {
+  .contact {
+    .container {
+      width: 60%;
+    }
+  }
+
+}
+
+@include media-breakpoint-down(lg) {
+  .contact {
+    .dispCol {
+      flex-direction: column;
+      // width: 70%;
+    }
+
+    .person {
+      margin-bottom: 20px;
+    }
+
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .contact {
+    .contactName {
+      font-size: 23px;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+
+  .contact {
+    .container {
+      width: 80%;
+    }
+
+    .contactName {
+      font-size: 20px;
+    }
+
+    .contactName {
+      margin-top: 30px;
+    }
+
+  }
+
 }

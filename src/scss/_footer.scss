@@ -4,3 +4,9 @@ h6.footer {
   font-size: 13px;
   color: #8b8b8b;
 }
+
+@include media-breakpoint-down(sm) {
+  h6.footer {
+    font-size: 11px;
+  }
+}

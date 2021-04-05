@@ -20,9 +20,9 @@ const GerrisASVSpecial: React.SFC<GerrisASVSpecialProps> = () => {
 
       <Gerris
         text1={ lang ? 
-          "Gerris ASV Special- Jest to rozszerzona wersja katamaranu Gerris ASV ze zintegrowanym systemem do pomiarów batymetrycznych." 
+          "Gerris ASV Special - Jest to rozszerzona wersja katamaranu Gerris ASV ze zintegrowanym systemem do pomiarów batymetrycznych." 
           : 
-          "Gerris ASV Special- This is an extended version of the Gerris ASV catamaran with an integrated bathymetric measurement system."}
+          "Gerris ASV Special - This is an extended version of the Gerris ASV catamaran with an integrated bathymetric measurement system."}
 
         text2={ lang ? 
           "W autonomicznym katamaranie zamontowane zostały dodatkowo echosonda, GPS RTK, komputer pokładowy z Windows 10 oraz cyfrowy system transmisji danych pomiarowych do stacji naziemnej. Taki zestaw pozwala na kompleksowe wykonywanie pomiarów batymetrycznych “out of the box” z podglądem danych na żywo w stacji naziemnej."

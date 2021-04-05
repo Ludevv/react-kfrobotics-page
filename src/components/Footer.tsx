@@ -8,7 +8,7 @@ const Footer: React.SFC = () => {
 
   return (
     <div className="container">
-      <h6 className="footer">© {date} K.F. Robotics Sp. z o.o. { lang ? "Wszystkie Prawa Zastrzeżone" : "All Rights Reserved"}</h6>
+      <h6 className="footer">© {date} K.F. Robotics Sp. z o.o. { lang ? "Wszelkie Prawa Zastrzeżone" : "All Rights Reserved"}</h6>
     </div>
    );
 }

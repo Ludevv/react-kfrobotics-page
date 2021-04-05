@@ -34,3 +34,29 @@
     flex-basis: 50%;
   }
 }
+
+
+@include media-breakpoint-down(lg) {
+  .setBox {
+    flex-direction: column;
+    width: 70%;
+  }
+}
+
+@include media-breakpoint-down(md) {
+
+  .setBox {
+
+    width: 70%;
+  }
+}
+
+
+
+@include media-breakpoint-down(sm) {
+
+  .setBox {
+
+    width: 90%;
+  }
+}

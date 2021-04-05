@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Routing from './store/Routing';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Media from './components/Media';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routing/>
         <Contact/>
         <Footer/>
+        <Media />
     </div>
   );
 }

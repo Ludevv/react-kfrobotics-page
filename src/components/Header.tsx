@@ -22,7 +22,9 @@ const Header: React.SFC = () => {
 
   const hideMenuHanlder = () => {
     setShowSubMenu(false)
+    setShowMobileMenu(false)
   }
+
 
   const dectiveRoute = (event: any): void => {
     event.preventDefault()
@@ -36,7 +38,7 @@ const Header: React.SFC = () => {
   return ( 
       <>
         <header>
-            <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container">
                     <div className="logoBox">
                         <img src={logo} alt="logo"/>
@@ -64,13 +66,13 @@ const Header: React.SFC = () => {
                                     {lang ? "Działaność" : "Projects"}
                                 </NavLink>
                                 <div className={`dropdown-menu ${showSubMenu ? `show` : null}`} aria-labelledby="navbarDropdownMenuLink">
-                                    <NavLink to="/gerrisasv" className="nav-link">
+                                    <NavLink onClick={mobileMenuHanlder} to="/gerrisasv" className="nav-link">
                                         GerrarisASV
                                     </NavLink>
-                                    <NavLink to="/gerrisasvspecial" className="nav-link">
+                                    <NavLink onClick={mobileMenuHanlder} to="/gerrisasvspecial" className="nav-link">
                                         GerrarisASV Special
                                     </NavLink>
-                                    <NavLink to="/gerris1200" className="nav-link">
+                                    <NavLink onClick={mobileMenuHanlder} to="/gerris1200" className="nav-link">
                                         Gerraris 1200
                                     </NavLink>
                                 </div>

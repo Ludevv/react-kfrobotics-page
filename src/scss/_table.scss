@@ -39,3 +39,27 @@
     }
   }
 }
+
+
+@include media-breakpoint-down(xl) {
+  .tableBox {
+    width: 60%;
+  }
+}
+
+
+
+
+@include media-breakpoint-down(lg) {
+  .tableBox {
+    width: 70%;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .tableBox {
+    width: 90%;
+  }
+}
+
+@include media-breakpoint-down(sm) {}

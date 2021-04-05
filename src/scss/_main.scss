@@ -52,3 +52,27 @@
   }
 
 }
+
+
+
+
+@include media-breakpoint-down(sm) {
+  .aboutCompany {
+
+    width: 90%;
+  }
+
+  .carousel {
+
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      top: 25%;
+      bottom: 100%;
+
+
+
+    }
+
+  }
+}

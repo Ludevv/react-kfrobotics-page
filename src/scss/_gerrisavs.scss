@@ -7,17 +7,17 @@
   .gerrisTextOdd {
     flex-basis: 50%;
     text-align: justify;
-    padding-right: 60px;
+    padding-right: 45px;
     font-size: 18px;
   }
 
   .gerrisImgBoxOdd {
     position: relative;
-    flex-basis: 35%;
-    height: 240px;
+    flex-basis: 40%;
+    min-height: 300px;
     background-color: gold;
     width: 150px;
-    transform: skew(-14deg);
+    transform: skew(-10deg);
     overflow: hidden;
     border: 5px solid gold;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
@@ -31,46 +31,46 @@
       position: absolute;
       top: 0;
       left: -30px;
-      transform: skew(14deg);
-      margin: 0 -55px 0 0;
-      width: 120%;
+      transform: skew(10deg);
+      margin: 0;
+      width: 115%;
       height: 100%;
       background-image: url("../images/g1one.jpg");
       background-size: cover;
-      background-position: center;
+      background-position: 20% 55%;
     }
 
     .gerrisOneImgOdd3 {
       position: absolute;
       top: 0;
       left: -30px;
-      transform: skew(14deg);
-      margin: 0 -55px 0 0;
-      width: 120%;
+      transform: skew(10deg);
+      margin: 0;
+      width: 115%;
       height: 100%;
       background-image: url("../images/g1three.jpg");
       background-size: cover;
-      background-position: center;
+      background-position: center 60%;
     }
 
     .gerrisTwoImgOdd1 {
       position: absolute;
       top: 0;
       left: -30px;
-      transform: skew(14deg);
-      margin: 0 -55px 0 0;
-      width: 120%;
+      transform: skew(10deg);
+      margin: 0;
+      width: 115%;
       height: 100%;
       background-image: url("../images/g2one.jpg");
       background-size: cover;
-      background-position: bottom;
+      background-position: center 70%;
     }
 
     .gerrisTwoImgOdd3 {
       position: absolute;
       top: 0;
       left: -30px;
-      transform: skew(14deg);
+      transform: skew(10deg);
       margin: 0 -55px 0 0;
       width: 120%;
       height: 100%;
@@ -84,7 +84,7 @@
       position: absolute;
       top: 0;
       left: -30px;
-      transform: skew(14deg);
+      transform: skew(10deg);
       margin: 0 -55px 0 0;
       width: 120%;
       height: 100%;
@@ -101,7 +101,7 @@
       position: absolute;
       top: 0;
       left: -30px;
-      transform: skew(14deg);
+      transform: skew(10deg);
       margin: 0 -55px 0 0;
       width: 120%;
       height: 100%;
@@ -124,19 +124,19 @@
   margin: 70px auto;
 
   .gerrisTextEven {
-    flex-basis: 50%;
+    flex-basis: 60%;
     text-align: justify;
-    padding-left: 60px;
+    padding-left: 45px;
     font-size: 18px;
   }
 
   .gerrisImgBoxEven {
     position: relative;
-    flex-basis: 35%;
-    height: 240px;
+    flex-basis: 40%;
+    min-height: 300px;
     background-color: gold;
     width: 150px;
-    transform: skew(14deg);
+    transform: skew(10deg);
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
       rgba(0, 0, 0, 0.07) 0px 2px 4px,
       rgba(0, 0, 0, 0.07) 0px 4px 8px,
@@ -151,7 +151,7 @@
       position: absolute;
       top: 0;
       left: -30px;
-      transform: skew(-14deg);
+      transform: skew(-10deg);
       margin: 0 -55px 0 0;
       width: 120%;
       height: 100%;
@@ -164,7 +164,7 @@
       position: absolute;
       top: 0;
       left: -30px;
-      transform: skew(-14deg);
+      transform: skew(-10deg);
       margin: 0 -55px 0 0;
       width: 120%;
       height: 100%;
@@ -177,7 +177,7 @@
       position: absolute;
       top: 0;
       left: -30px;
-      transform: skew(-14deg);
+      transform: skew(-10deg);
       margin: 0 -55px 0 0;
       width: 120%;
       height: 100%;
@@ -214,4 +214,101 @@
   color: red;
   font-weight: 700;
   font-size: 18px;
+}
+
+@include media-breakpoint-down(xl) {
+  .gerrisBoxOdd {
+    flex-direction: column;
+    flex-basis: 300px;
+    // height: 370px;
+    width: 90%;
+    margin: 50px auto;
+    flex-grow: 1;
+
+    .gerrisTextOdd {
+      flex-basis: 20%;
+      text-align: justify;
+      padding: 0 45px;
+      font-size: 18px;
+    }
+
+    .gerrisImgBoxOdd {
+      flex-basis: 80%;
+      height: 350px;
+      margin: 0 auto;
+      width: 350px;
+    }
+  }
+
+  .gerrisBoxEven {
+    flex-direction: column;
+    flex-basis: 300px;
+    // height: 450px;
+    width: 90%;
+    margin: 50px auto 20px;
+
+    .gerrisTextEven {
+      flex-basis: 20%;
+      text-align: justify;
+      padding-right: 45px;
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+
+    .gerrisImgBoxEven {
+      flex-basis: 80%;
+      height: 350px;
+      margin: 0 auto;
+      width: 350px;
+      margin-bottom: 50px;
+
+    }
+  }
+}
+
+
+
+@include media-breakpoint-down(lg) {
+  div.container {
+    width: 90%;
+  }
+
+  .gerrisBoxOdd,
+  .gerrisBoxEven {
+    width: 100%;
+    margin: 50px 0 20px;
+
+    .gerrisTextEven,
+    .gerrisTextOdd {
+      padding: 0;
+    }
+  }
+}
+
+
+@include media-breakpoint-down(sm) {
+
+
+  .gerrisBoxOdd {
+    .gerrisImgBoxOdd {
+      width: 280px;
+
+
+
+      .gerrisOneImgOdd1,
+      .gerrisOneImgOdd3,
+      .gerrisTwoImgOdd1 {
+        width: 120%;
+      }
+    }
+  }
+
+  .gerrisBoxEven {
+    .gerrisImgBoxEven {
+
+      width: 280px;
+
+
+    }
+  }
 }
