@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Title from '../components/Title';
 import Table from '../components/Table';
-import SetIncludeASV from '../components/SetIncludeASV';
+import SetInclude from '../components/SetInclude';
 import Gerris from '../components/Gerris';
 import { useLanguage } from '../store/Store';
 
@@ -55,7 +55,7 @@ const Gerris1200: React.SFC<Gerris1200Props> = () => {
         row13=""
       />
     </div>
-    <SetIncludeASV/>
+    <SetInclude/>
   </>
    );
 }

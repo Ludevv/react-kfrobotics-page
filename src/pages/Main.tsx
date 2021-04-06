@@ -16,9 +16,9 @@ const Main: React.SFC<MainProps> = () => {
       <div className="aboutCompany">
           <p>
             { lang ? 
-              "Firma zajmuje się projektowaniem i wykonywaniem rozwiązań inżynierskich. Tworzymy dedykowane rozwiązania dla klientów od projektu do realizacji. Naszą specjalnością są bezzałogowe łodzie do pomiarów batymetrycznych. Więcej informacji o zrealizowanych i trwających projektach zakładce Działalność"
+              "Firma zajmuje się projektowaniem i wykonywaniem rozwiązań inżynierskich, ze szczególnym naciskiem na bezzałogowe łodzie do pomiarów batymetrycznych. Tworzymy dedykowane rozwiązania dla wymagających klientów od projektu do realizacji. Zapraszamy do zapoznania się z zakładką zrealizowanych oraz trwających projektów."
               :
-              "The company deals with the design and implementation of engineering solutions. We create dedicated solutions for clients from design to implementation. We specialize in unmanned boats for bathymetric measurements. More information about completed and ongoing projects in the Projects tab"
+              "A company dealing with design and engineering expectation, with particular emphasis on unmanned boats for bathymetric measurements. We create dedicated solutions for clients from design to implementation. We invite you to see the completed tab and the ongoing projects."
             }
           </p>
       </div>
