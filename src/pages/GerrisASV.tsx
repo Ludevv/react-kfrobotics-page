@@ -1,9 +1,11 @@
 import * as React from 'react';
 import Title from '../components/Title';
 import Table from '../components/Table';
-import SetInclude from '../components/SetInclude';
+import SetIncludeASV from '../components/SetIncludeASV';
 import Gerris from '../components/Gerris';
 import { useLanguage } from '../store/Store';
+
+import box from '../images/box.jpg'
 
 
 
@@ -57,7 +59,8 @@ const GerrisASV: React.SFC<GerrisASVProps> = () => {
         row13="LED"
       />
     </div>
-    <SetInclude/>
+    <SetIncludeASV/>
+    <img src={box} alt="zestaw" className="setBoxImg"/>
 </>
    );
 }

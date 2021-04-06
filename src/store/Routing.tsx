@@ -19,7 +19,7 @@ const Routing: React.SFC<RoutingProps> = () => {
       <Route exact path="/" render={()=> <Main/>}/>
       <Route exact path="/aktualnosci" render={()=> <News/>}/>
       <Route exact path="/gerrisasv" render={()=> <GerrisAVS/>}/>
-      <Route exact path="/gerrisasvspecial" render={()=> <GerrisAVSSpecial/>}/>
+      <Route exact path="/gerrisasvsurveyor" render={()=> <GerrisAVSSpecial/>}/>
       <Route exact path="/gerris1200" render={()=> <Gerris1200/>}/>
       <Route exact path="/kontakt" render={()=> <Map/>}/>
       <Redirect to="/"/>

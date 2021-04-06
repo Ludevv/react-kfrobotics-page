@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Title from '../components/Title';
 import Table from '../components/Table';
-import SetInclude from '../components/SetInclude';
+import SetIncludeASVSpecial from '../components/SetIncludeASVSpecial';
 import Gerris from '../components/Gerris';
 import { useLanguage } from '../store/Store';
 
@@ -16,13 +16,13 @@ const GerrisASVSpecial: React.SFC<GerrisASVSpecialProps> = () => {
   <>
     <div className="container">
 
-      <Title text="Gerris ASV Special"/>
+      <Title text="Gerris ASV Surveyor"/>
 
       <Gerris
         text1={ lang ? 
-          "Gerris ASV Special - Jest to rozszerzona wersja katamaranu Gerris ASV ze zintegrowanym systemem do pomiarów batymetrycznych." 
+          "Gerris ASV Surveyor - Jest to rozszerzona wersja katamaranu Gerris ASV ze zintegrowanym systemem do pomiarów batymetrycznych." 
           : 
-          "Gerris ASV Special - This is an extended version of the Gerris ASV catamaran with an integrated bathymetric measurement system."}
+          "Gerris ASV Surveyor - This is an extended version of the Gerris ASV catamaran with an integrated bathymetric measurement system."}
 
         text2={ lang ? 
           "W autonomicznym katamaranie zamontowane zostały dodatkowo echosonda, GPS RTK, komputer pokładowy z Windows 10 oraz cyfrowy system transmisji danych pomiarowych do stacji naziemnej. Taki zestaw pozwala na kompleksowe wykonywanie pomiarów batymetrycznych “out of the box” z podglądem danych na żywo w stacji naziemnej."
@@ -55,7 +55,7 @@ const GerrisASVSpecial: React.SFC<GerrisASVSpecialProps> = () => {
         row13="LED"
       />
     </div>
-    <SetInclude/>
+    <SetIncludeASVSpecial/>
   </>
    );
 }

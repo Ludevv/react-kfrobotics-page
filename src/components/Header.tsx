@@ -40,10 +40,12 @@ const Header: React.SFC = () => {
         <header>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container">
+                     <NavLink to="/" exact className="nav-link">
                     <div className="logoBox">
                         <img src={logo} alt="logo"/>
                         <span>K.F. Robotics</span> 
                     </div>
+                    </NavLink>
                     <button onClick={mobileMenuHanlder} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
                             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -69,8 +71,8 @@ const Header: React.SFC = () => {
                                     <NavLink onClick={mobileMenuHanlder} to="/gerrisasv" className="nav-link">
                                         GerrarisASV
                                     </NavLink>
-                                    <NavLink onClick={mobileMenuHanlder} to="/gerrisasvspecial" className="nav-link">
-                                        GerrarisASV Special
+                                    <NavLink onClick={mobileMenuHanlder} to="/gerrisasvsurveyor" className="nav-link">
+                                        GerrarisASV Surveyor
                                     </NavLink>
                                     <NavLink onClick={mobileMenuHanlder} to="/gerris1200" className="nav-link">
                                         Gerraris 1200

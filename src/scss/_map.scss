@@ -16,3 +16,10 @@
     height: 100%;
   }
 }
+
+
+@include media-breakpoint-down(sm) {
+  .map {
+    width: 90%;
+  }
+}

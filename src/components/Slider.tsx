@@ -33,7 +33,7 @@ const Slider: React.SFC<SliderProps> = () => {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <NavLink to="/gerrisasvspecial" className="nav-link"><h3 className="caruselTitle">GERRIS ASV SPECIAL</h3></NavLink>
+            <NavLink to="/gerrisasvsurveyor" className="nav-link"><h3 className="caruselTitle">GERRIS ASV Surveyor</h3></NavLink>
             <p  className="caruselDesc">{lang ? "Zintegrowany system do pomiarów batymetrycznych." : "Integrated system for bathymetric measurements."}</p>
           </Carousel.Caption>
         </Carousel.Item>
