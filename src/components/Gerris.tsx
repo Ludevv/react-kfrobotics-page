@@ -46,8 +46,6 @@ const Gerris: React.SFC<GerrisProps> = ({text1, text2, text3, imgSrc1, imgSrc2, 
           {/* <div className="gerrisTriangle2Odd"></div> */}
         </div>
       </div>
-      <em className="gerrisDesign">{lang ? "Zaprojektowany i budowany w Polsce przez zespół inżynierów i modelarzy." : "Designed and built in Poland by a team of engineers and modelers."}</em>
-      <p className="gerrisHelp">{lang ? "Oferujemy wsparcie w pomiarach batymetrycznych." : "We offer support in bathymetric measurements."}</p>
       </>
    );
 }

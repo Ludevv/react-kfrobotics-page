@@ -9,10 +9,21 @@ export interface MapProps {
 const Map: React.SFC<MapProps> = () => {
   const [{lang}, {changeLanguage}] = useLanguage();
   return ( 
-    <div className="container">
-      <Title text={ lang ? "Znajdź nas..." : "Find Us..."}/>
-      <div className="map">
-          <iframe title="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24523.896586687366!2d16.913686229961073!3d51.12002075569369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc02fd988a371%3A0x4eeacf52241b19c2!2sRezedowa%2060%2C%2054-515%20Wroc%C5%82aw!5e0!3m2!1spl!2spl!4v1617541408014!5m2!1spl!2spl" width="800" height="600"></iframe>
+    <div className="map">
+      <div className="container">
+        <Title text={ lang ? "Kontakt" : "Contact"}/>
+        <span className="contactName">K.F. Robotics Sp. z o.o.</span>
+        <div className="person">
+          <a href="tel:601989908"><i className="fas fa-phone-alt"></i>+48 601 989 908</a>
+          <a href="mailto:r.g.kowalczyk@gmail.com"><i className="fas fa-envelope"></i>r.g.kowalczyk@gmail.com</a>
+          <a href="https://www.facebook.com/GerrisUSV"><i className="fab fa-facebook"></i>Facebook</a>
+          <a href="https://www.instagram.com/gerris_usv/"><i className="fab fa-instagram"></i>Instagram</a>
+          <p>ul. Rezedowa 60, 54-515 Wrocław</p>
+          <p><b>KRS:</b> 0000862246</p>
+          <p><b>NIP:</b> 8943159066</p>
+          <p><b>Regon:</b> 38712781200000</p>
+          <p>Sąd Rejonowy dla Wrocławia-Fabrycznej, VI Wydział Gospodarczy Krajowego Rejestru Sądowego</p>
+        </div>
       </div>
     </div>
    );

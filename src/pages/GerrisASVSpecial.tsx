@@ -30,9 +30,9 @@ const GerrisASVSpecial: React.SFC<GerrisASVSpecialProps> = () => {
           "The autonomous catamaran also has an echo sounder, GPS RTK, on-board computer with Windows 10 and a digital measurement data transmission system to the ground station. Such a set allows for comprehensive“ out of the box ”bathymetric measurements with live data preview at the ground station. "}
 
         text3={ lang ? 
-          "Wyposażony w zewnętrzne napędy zanurzone pod wodą."
+          "W tym modelu zdecydowaliśmy się przetestować nowy układ napędowy. Są nim dwa zewnętrzne napędy tunelowe zanurzone całkowicie pod wodą. Choć nie są zdublowane ich moc zapewnia jednostce tę samą szybkość i niesamowitą zwrotność przy niskim zużyciu prądu."
           : 
-          "Equipped with external submersible drives."}
+          "In this model, we decided to test a new driveline. These are two external tunnel drives completely submerged in water. Although they are not doubled, their power provides the unit with the same speed and incredible maneuverability with low power consumption."}
 
         imgSrc1="gerrisTwoImgOdd1"
         imgSrc2="gerrisTwoImgEven"

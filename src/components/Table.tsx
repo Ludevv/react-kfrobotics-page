@@ -22,7 +22,7 @@ const Table: React.SFC<TableProps> = ({row1, row2, row3, row4, row5, row6, row7,
   const [{lang}, {changeLanguage}] = useLanguage();
   return ( 
         <div className="tableBox">
-        <p>{lang ? "Parametry:" : "Parameters:"}</p>
+        <p>{lang ? "Parametry techniczne:" : "Parameters:"}</p>
         <div className="table">
           <div className="row">
             <div className="columnName">{lang ? "Długość" : "Length"}:</div>

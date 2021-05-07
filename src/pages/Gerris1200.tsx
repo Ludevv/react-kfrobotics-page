@@ -15,18 +15,18 @@ const Gerris1200: React.SFC<Gerris1200Props> = () => {
   return ( 
   <>
     <div className="container">
-      <Title text="Gerris 1200"/>
+      <Title text="Gerris 1100 ASV"/>
 
       <Gerris
         text1={ lang ? 
-          "Ciągły rozwój, optymalizacja procesu produkcji i doskonalenie konstrukcji doprowadziło nas do punktu, w którym tworzymy udoskonalonego Gerrisa ASV - Gerris ASV 1200. Praktyczniejszego, sprawniejszego i jeszcze bardziej niezawodnego."
+          "Ciągły rozwój, optymalizacja procesu produkcji i doskonalenie konstrukcji doprowadziło nas do punktu, w którym tworzymy udoskonalonego Gerrisa ASV - Gerris ASV 1100. Praktyczniejszego, sprawniejszego i jeszcze bardziej niezawodnego."
           : 
          "Continuous development, optimization of the production process and design refinement have led us to the point where we are making the improved Gerris ASV - Gerris ASV 1200. More practical, efficient and even more reliable."}
 
         text2={ lang ? 
-           "Projektujemy nowe pływaki o mniejszym współczynniku oporu dla wydłużenia czasu pracy na baterii. Również będzie wykonany z wytrzymałego kompozytu epoksydowo-szklanego, jednak w wykorzystaniem technologii infuzji dla uzyskania najwyższej wytrzymałości przy najniższej masie kompozytu."
+           "Projektujemy nowe pływaki o mniejszym współczynniku oporu dla wydłużenia czasu pracy na jednym ładowaniu. Tak jak jego poprzednik, również wykonany z wytrzymałego kompozytu epoksydowo-szklanego z wykorzystaniem technologii infuzji dla uzyskania najwyższej wytrzymałości przy najniższej możliwej masie elementu."
           : 
-          "We are designing new floats with a lower drag coefficient to extend battery life. It will also be made of durable epoxy-glass composite, but using infusion technology for the highest strength with the lowest composite weight." }
+          "We design new floats with a lower drag coefficient to extend the working time on a single charge. Like its predecessor, it is also made of durable epoxy-glass composite using infusion technology for the highest strength with the lowest possible weight of the element." }
 
         text3={ lang ? 
            "Nowe osłony napędowe - wytrzymalsze i łatwiejsze w utrzymaniu. Łatwe dostosowanie różnego rodzaju napędów. Niezatapialność - cecha jaką może pochwalić się niewiele tego typu jednostek. Mamy świadomość, że sprzęt pomiarowy jest cenny, stąd chcemy mieć pewność, że “nie pójdzie on na dno”."
@@ -40,19 +40,19 @@ const Gerris1200: React.SFC<Gerris1200Props> = () => {
        <em className="gerrisMoreSoon">{lang ? "Wkrótce więcej informacji!" : "More info coming soon!"}</em>
    
          <Table 
-        row1=""
-        row2=""
-        row3=""
-        row4=""
-        row5=""
-        row6=""
-        row7=""
-        row8=""
-        row9=""
-        row10=""
-        row11=""
-        row12=""
-        row13=""
+        row1="1100 mm"
+        row2="900-1000 mm"
+        row3="320 mm"
+        row4="14 kg"
+        row5="15 kg"
+        row6="2 m/s"
+        row7={lang ? "2 lub 4 silniki bezszczotkowe, 2 napędy zewnętrzne" : "2 or 4 brushless motors, 2 external drives"}
+        row8={lang ? "mosiężne lub poliwęglan" : "brass or polycarbonate"}
+        row9="12V Li-ion"
+        row10="> 2h"
+        row11={lang ? "kompozyt epoksydowo-szklany" : "epoxy-glass composite"}
+        row12={lang ? "ręczne lub autonomiczne" : "manual or standalone"}
+        row13={lang ? "LED - prawo, lewo, przód + dookólna  lampa błyskowa" : "LED - right, left, front + omni-directional flash"} 
       />
     </div>
     <SetInclude/>

@@ -1,5 +1,5 @@
 .bgSetBox {
-  margin: 75px 0;
+  margin: 75px 0 25px;
   background-color: rgb(156, 156, 156);
 
 }
@@ -8,7 +8,6 @@
   display: flex;
   width: 55%;
   margin: 20px auto;
-
   padding: 20px;
   background-color: rgb(156, 156, 156);
   color: white;
@@ -33,6 +32,14 @@
   .optional {
     flex-basis: 50%;
   }
+}
+
+.setBoxSpecial {
+  @extend .setBox;
+  display: block;
+  width: 30%;
+
+ 
 }
 
 

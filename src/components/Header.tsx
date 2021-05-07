@@ -69,13 +69,13 @@ const Header: React.SFC = () => {
                                 </NavLink>
                                 <div className={`dropdown-menu ${showSubMenu ? `show` : null}`} aria-labelledby="navbarDropdownMenuLink">
                                     <NavLink onClick={mobileMenuHanlder} to="/gerrisasv" className="nav-link">
-                                        GerrarisASV
+                                        Gerris ASV
                                     </NavLink>
                                     <NavLink onClick={mobileMenuHanlder} to="/gerrisasvsurveyor" className="nav-link">
-                                        GerrarisASV Surveyor
+                                        Gerris ASV Surveyor
                                     </NavLink>
                                     <NavLink onClick={mobileMenuHanlder} to="/gerris1200" className="nav-link">
-                                        Gerraris 1200
+                                        Gerris 1100 ASV
                                     </NavLink>
                                 </div>
                             </li>

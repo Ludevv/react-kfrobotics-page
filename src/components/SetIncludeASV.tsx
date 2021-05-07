@@ -13,12 +13,13 @@ const SetInclude: React.SFC<SetIncludeProps> = () => {
         <div className="setInclude">
           <p>{lang ? "Zestaw zawiera" : "Set contains"}</p>
           <ul>
-            <li>{lang ? "katamaran z akumulatorami 36Ah" : "catamaran with 36Ah batteries"}</li>
+            <li>{lang ? "zdalnie sterowaną jednostkę typu katamaran" : "catamaran"}</li>
             <li>{lang ? "autopilot z telemetrią" : "autopilot with telemetry"}</li>
-            <li>{lang ? "kontroler do sterowania ręcznego" : "controller for manual control"}</li>
+            <li>{lang ? "kontroler z drążkami do sterowania ręcznego" : "controller for manual control"}</li>
+            <li>{lang ? "zestaw akumulatorów napędowych 36Ah (2h pływania @1,2m/s)" : "36Ah drive battery set (2h of swimming @ 1.2m / s)"}</li>
             <li>{lang ? "skrzynie transportowe" : "transport crates"}</li>
-            <li>{lang ? "ładowarka akumulatorów napędowych" : "drive battery charger"}</li>
-            <li>{lang ? "ładowarka kontrolera sterującego" : "control controller charger"}</li>
+            <li>{lang ? "dwie ładowarki 10A do akumulatorów napędowych" : "two 10A chargers for driving batteries"}</li>
+            <li>{lang ? "ładowarka 2A kontrolera sterującego" : "control controller 2A charger"}</li>
             <li>{lang ? "uchwyt echosondę i odbiornik GNSS" : "sonar holder and GNSS receiver"}</li>
             <li>{lang ? "narzędzia do obsługi" : "maintenance tools"}</li>
           </ul>

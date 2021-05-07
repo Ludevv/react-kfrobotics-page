@@ -44,7 +44,7 @@ const Slider: React.SFC<SliderProps> = () => {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <NavLink to="/gerris1200" className="nav-link"><h3 className="caruselTitle">GERRIS 1200</h3></NavLink>
+            <NavLink to="/gerris1200" className="nav-link"><h3 className="caruselTitle">GERRIS 1100 ASV</h3></NavLink>
             <p  className="caruselDesc">{lang ? "Nowoczesny bezzałogowy katamaran z funkcją autopilota (w trakcie testów)." : "A modern unmanned catamaran with an autopilot function (under testing)."}</p>
           </Carousel.Caption>
         </Carousel.Item>

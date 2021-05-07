@@ -14,34 +14,15 @@ const News: React.SFC<NewsProps> = () => {
       <div className="container">
         <Title text={ lang ? "Aktualności" : "News"}/>
         <Article
-          title={lang ? "Tytuł...": "Angielski tytuł..."}
+          title={lang ? "Rusza nasza strona internetowa!": "Our website is launched!"}
           text={lang ? 
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos modi reiciendis voluptatum voluptatibus a animi consequuntur ut repellat in ipsa ipsum suscipit similique quo cum sequi esse, labore sapiente corrupti! Sapiente esse ullam voluptas aspernatur facere, nihil natus iure autem vel veritatis inventore eligendi cumque totam, atque, facilis quaerat voluptate? Repudiandae atque dignissimos placeat doloribus maiores. Magnam maiores eligendi eum!" 
+            "Z radością uruchamiamy naszą stroną internetową. Znajdziecie na niej Państwo informacje dotyczące naszej działalności, w tym o realizowanych projektach. Strona będzie na bieżąco aktualizowana i rozbudowywana, aby dostarczała także treściwe i przystępne materiały informacyjne." 
             :
-            "Teskt po angielsku" 
+            "We are happy to launch our website. You will find there information about our activities, including projects. The website will be updated and expanded on an ongoing basis so that it also provides content and accessible information materials." 
             }
-          date="04.04.2021r."
+          date="07.05.2021r."
         />
-        <hr/>
-        <Article
-          title={lang ? "Tytuł...": "Angielski tytuł..."}
-          text={lang ? 
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos modi reiciendis voluptatum voluptatibus a animi consequuntur ut repellat in ipsa ipsum suscipit similique quo cum sequi esse, labore sapiente corrupti! Sapiente esse ullam voluptas aspernatur facere, nihil natus iure autem vel veritatis inventore eligendi cumque totam, atque, facilis quaerat voluptate? Repudiandae atque dignissimos placeat doloribus maiores. Magnam maiores eligendi eum!" 
-            :
-            "Teskt po angielsku" 
-            }
-          date="04.04.2021r."
-        />
-        <hr/>
-        <Article
-          title={lang ? "Tytuł...": "Angielski tytuł..."}
-          text={lang ? 
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos modi reiciendis voluptatum voluptatibus a animi consequuntur ut repellat in ipsa ipsum suscipit similique quo cum sequi esse, labore sapiente corrupti! Sapiente esse ullam voluptas aspernatur facere, nihil natus iure autem vel veritatis inventore eligendi cumque totam, atque, facilis quaerat voluptate? Repudiandae atque dignissimos placeat doloribus maiores. Magnam maiores eligendi eum!" 
-            :
-            "Teskt po angielsku" 
-            }
-          date="04.04.2021r."
-        />
+        {/* <hr/> */}
       </div>
     </>
    );
