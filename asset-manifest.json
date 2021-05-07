@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-kfrobotics-page/static/css/main.69845b50.chunk.css",
-    "main.js": "/react-kfrobotics-page/static/js/main.6102b946.chunk.js",
-    "main.js.map": "/react-kfrobotics-page/static/js/main.6102b946.chunk.js.map",
+    "main.css": "/react-kfrobotics-page/static/css/main.4c14ec11.chunk.css",
+    "main.js": "/react-kfrobotics-page/static/js/main.500a2344.chunk.js",
+    "main.js.map": "/react-kfrobotics-page/static/js/main.500a2344.chunk.js.map",
     "runtime-main.js": "/react-kfrobotics-page/static/js/runtime-main.46c8b18b.js",
     "runtime-main.js.map": "/react-kfrobotics-page/static/js/runtime-main.46c8b18b.js.map",
     "static/js/2.74d31f45.chunk.js": "/react-kfrobotics-page/static/js/2.74d31f45.chunk.js",
     "static/js/2.74d31f45.chunk.js.map": "/react-kfrobotics-page/static/js/2.74d31f45.chunk.js.map",
     "index.html": "/react-kfrobotics-page/index.html",
-    "static/css/main.69845b50.chunk.css.map": "/react-kfrobotics-page/static/css/main.69845b50.chunk.css.map",
+    "static/css/main.4c14ec11.chunk.css.map": "/react-kfrobotics-page/static/css/main.4c14ec11.chunk.css.map",
     "static/js/2.74d31f45.chunk.js.LICENSE.txt": "/react-kfrobotics-page/static/js/2.74d31f45.chunk.js.LICENSE.txt",
-    "static/media/box.1965f740.jpg": "/react-kfrobotics-page/static/media/box.1965f740.jpg",
+    "static/media/box.9a083e2c.jpg": "/react-kfrobotics-page/static/media/box.9a083e2c.jpg",
     "static/media/carusel1.8c8b09b4.jpg": "/react-kfrobotics-page/static/media/carusel1.8c8b09b4.jpg",
     "static/media/carusel2.7aeb5d88.jpg": "/react-kfrobotics-page/static/media/carusel2.7aeb5d88.jpg",
     "static/media/carusel3.b86b32b3.jpg": "/react-kfrobotics-page/static/media/carusel3.b86b32b3.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.46c8b18b.js",
     "static/js/2.74d31f45.chunk.js",
-    "static/css/main.69845b50.chunk.css",
-    "static/js/main.6102b946.chunk.js"
+    "static/css/main.4c14ec11.chunk.css",
+    "static/js/main.500a2344.chunk.js"
   ]
 }
